@@ -1,0 +1,18 @@
+{
+  "source_repository": "https://github.com/ramselvaraj/riscv",
+  "source_commit": "3f78153caccfe90f6c95933c5294f08c8002cbbe",
+  "librelane_version": "3.0.16",
+  "librelane_checkout": "01ddb25e4424f6f5aaf6b951b14a2b6fdcf737c0",
+  "appimage_sha256": "428df0d6d7ce167de6a31bc46001f1167b7fb1fbc1ed95fba278367a95883147",
+  "pdk": "sky130A",
+  "pdk_revision": "8afc8346a57fe1ab7934ba5a6056ea8b43078e71",
+  "scl": "sky130_fd_sc_hd",
+  "final_run": "repair_appimage_20261022",
+  "resumed_from": "20261021_130034/31-openroad-stamidpnr/state_out.json",
+  "formal_equivalence": "not run",
+  "remaining_issues": [
+    "Slow-corner max slew/capacitance violations",
+    "See warning.log for other warnings"
+  ],
+  "note": "Source copied from working tree, including uncommitted ASIC setup; unrelated working-tree changes excluded."
+}

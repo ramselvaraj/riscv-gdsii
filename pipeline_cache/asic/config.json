@@ -1,0 +1,22 @@
+{
+    "DESIGN_NAME": "pipeline_cache_asic",
+    "VERILOG_FILES": [
+        "dir::../rtl/rv32_pkg.sv",
+        "dir::../rtl/decoder.sv",
+        "dir::../rtl/core.sv",
+        "dir::../rtl/blocking_cache.sv",
+        "dir::../rtl/pipeline_cache.sv",
+        "dir::pipeline_cache_asic.sv"
+    ],
+    "USE_SLANG": true,
+    "SLANG_ARGUMENTS": ["--ignore-assertions"],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 50,
+    "PNR_SDC_FILE": "dir::constraints.sdc",
+    "SIGNOFF_SDC_FILE": "dir::constraints.sdc",
+    "FP_CORE_UTIL": 35,
+    "PL_TARGET_DENSITY_PCT": 45,
+    "RUN_POST_GRT_DESIGN_REPAIR": true,
+    "RUN_POST_GRT_RESIZER_TIMING": true,
+    "GRT_RESIZER_HOLD_SLACK_MARGIN": 0.3
+}
