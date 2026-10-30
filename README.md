@@ -4,7 +4,7 @@ Physical implementation of a cached five-stage RV32I integer core using
 LibreLane 3.0.16, OpenROAD, Yosys/Slang, and SKY130A high-density standard cells.
 This is a **core-macro portfolio project**, not a fabricated chip or tapeout.
 
-![Routed core](results/final/render/pipeline_cache_asic.png)
+![Routed core](results/final/render/pipeline_cache_asic_teal.webp)
 
 ## Results
 
